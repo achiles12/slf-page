@@ -4,10 +4,25 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      signature: ["Great Vibes"]
+    extend: {
+      colors: {'slf': {
+        100: '#FFF0D6',
+        200: '#F47DB2',
+        300: '#19105A',
+        400: '#FF5954',
+        500: '#D01645',
+        600: '#630A04',
+        700: '#FFCA00',
+        800: '#ECAB23',
+        900: '#0E3846',
+      }},
     },
+    fontFamily: {
+      signature: ["Great Vibes"],
+      written: ["Sacramento"],
+      blocky: ["Catamaran"]
+    },
+    
   },
   plugins: [],
 }
