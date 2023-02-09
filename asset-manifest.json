@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac3cb21e.css",
+    "main.js": "/static/js/main.dafcaf59.js",
+    "static/media/lrgScreenHero1.png": "/static/media/lrgScreenHero1.63e5ffd09abb89d3f509.png",
+    "static/media/smlScreenHero1.png": "/static/media/smlScreenHero1.0db55ec32f7bb605cd6d.png",
+    "index.html": "/index.html",
+    "main.ac3cb21e.css.map": "/static/css/main.ac3cb21e.css.map",
+    "main.dafcaf59.js.map": "/static/js/main.dafcaf59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3cb21e.css",
+    "static/js/main.dafcaf59.js"
+  ]
+}
