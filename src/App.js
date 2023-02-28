@@ -18,6 +18,7 @@ function App() {
       <SideBar />
       <Routes>
         <Route path="/" element={ <Home/> } />
+		<Route path="/slf-page" element={ <Home/> } />
         <Route path="contact" element={ <Contact/> } />
         <Route path="insurance" element={ <Insurance/> } />
         <Route path="investments" element={ <Investments/> } />
