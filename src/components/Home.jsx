@@ -25,7 +25,7 @@ const Home = () => {
             Anchored by our proud history, we continuously look for ways to bring innovative, insightful and simple solutions to our clients, so they can feel confident that they have a financial partner that cares about their well-being and that they can trust.
             </p> <br/>
             <div>
-                <NavLink to='contact'>
+                <NavLink to='/contact'>
                     <button className='group text-black w-fit px-6 my-2 flex items-center
                                     rounded-md bg-gradient-to-r from-yellow-500 bg-amber-600 h-10 hover:scale-105'>
                         Discuss your options
