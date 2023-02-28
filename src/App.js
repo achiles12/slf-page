@@ -1,21 +1,32 @@
+
 import BlockInfo from "./components/BlockInfo";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
-import NavBar from "./components/NavBar";
+import Insurance from "./components/Insurance";
+import Investments from "./components/Investments";
+import LifeGoals from "./components/LifeGoals";
 import SideBar from "./components/SideBar";
 
-// className='bg-gradient-to-b from-amber-600 to-yellow-400'
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
-    <div className="App" >
-      <div >
-        <NavBar />
-        <div className="items-end">
-          <Home/>
-          <SideBar/>
-          <BlockInfo/>
-        </div>
-        
-      </div>
+    <div className="App">
+      <NavBar/>
+      <div className="ui fitted divider"></div>
+      <SideBar />
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="contact" element={ <Contact/> } />
+        <Route path="insurance" element={ <Insurance/> } />
+        <Route path="investments" element={ <Investments/> } />
+        <Route path="lifegoals" element={ <LifeGoals/> } />
+      </Routes>
+
+      <BlockInfo/>
+      
+      
     </div>
   );
 }

@@ -21,7 +21,7 @@ const SideBar = () => {
            
             <ul className=''>
                 {socLinks.map( ({id, child, link,style,download})=> (
-                    <li key={id} className={'flex justify-between items-center w-40 h-14 px-4  bg-slf-900 hover:ml-[-10px] ml-[-90px] hover:rounded-md duration-300 hover:bg-opacity-90 bg-opacity-70 ' + style}>
+                    <li key={id} className={'flex justify-between items-center w-40 h-14 px-4  bg-gray-600 hover:ml-[-10px] ml-[-90px] hover:rounded-md duration-300 hover:bg-opacity-90 bg-opacity-70 ' + style}>
                         <a href={link} download={download} target='_blank' className='flex justify-between items-center w-full text-white' rel="noreferrer">{child}</a>
                     </li>))}
             </ul>

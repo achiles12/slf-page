@@ -20,7 +20,9 @@ module.exports = {
     fontFamily: {
       signature: ["Great Vibes"],
       written: ["Sacramento"],
-      blocky: ["Catamaran"]
+      blocky: ["Catamaran"],
+      other: ["Gloock"],
+      display:["Londrina Solid"],
     },
     
   },
